@@ -5,5 +5,5 @@ const app = express();
  
 app.use(express.static(path.resolve('../Equationator', 'public')));
  
-const PORT = 420;
+const PORT = 80;
 app.listen(PORT, () => console.log('listening on port', PORT));
