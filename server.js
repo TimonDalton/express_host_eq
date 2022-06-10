@@ -3,7 +3,7 @@ const path = require('path');
  
 const app = express();
  
-app.use(express.static(path.resolve('../', 'public')));
+app.use(express.static(path.resolve('../Equationator', 'public')));
  
-const PORT = 1234;
+const PORT = 420;
 app.listen(PORT, () => console.log('listening on port', PORT));
